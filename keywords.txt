@@ -1,0 +1,110 @@
+##############################################
+# Coloring Map For （ ）
+##############################################
+##############################################
+# Classes and Objects (KEYWORD1)
+##############################################
+BMC56M001	KEYWORD1
+##############################################
+# Methods and Functions (KEYWORD2)
+##############################################
+isPaired	KEYWORD2
+writePairPackage	KEYWORD2
+getPairStatus	KEYWORD2
+writeRFData	KEYWORD2
+isInfoAvailable	KEYWORD2
+readRFData	KEYWORD2
+getShortAddress	KEYWORD2
+getRSSI	KEYWORD2	KEYWORD2	
+getPktRSSI	KEYWORD2
+getPairResult	KEYWORD2
+writeEEPROM	KEYWORD2
+readEEPROM	KEYWORD2
+getFWVer	KEYWORD2
+getSN		KEYWORD2
+		
+getDeviceRole	KEYWORD2
+getMode		KEYWORD2
+getChannelPtn	KEYWORD2
+getRFPower	KEYWORD2
+getDataRate	KEYWORD2
+getHoppPeriod	KEYWORD2
+getBaud	KEYWORD2
+setDeviceRole	KEYWORD2
+setMode		KEYWORD2
+setChannelPtn	KEYWORD2
+setRFPower	KEYWORD2
+setDataRate	KEYWORD2
+setHoppPeriod	KEYWORD2
+
+setRFAddress	KEYWORD2
+setBaudRate	KEYWORD2
+getRFAddress	KEYWORD2
+checksum	KEYWORD2
+writeBytes	KEYWORD2	
+readBytes	KEYWORD2
+##############################################
+# Constants (LITERAL1)
+##############################################	
+TRUE	LITERAL1 
+FALSE	LITERAL1	
+TIMEOUT_ERROR	LITERAL1   
+SUCCESS	LITERAL1          
+FAIL	LITERAL1  
+           
+Node1_ShortAddr	LITERAL1  
+Node2_ShortAddr	LITERAL1   
+Node3_ShortAddr	LITERAL1    
+Node4_ShortAddr	LITERAL1    
+Node5_ShortAddr	LITERAL1    
+
+OK		LITERAL1
+Fail		LITERAL1
+Not_Support	LITERAL1
+Format_Wrong	LITERAL1
+Data_too_long	LITERAL1
+Pair_Fail	LITERAL1
+Pair_Timeout	LITERAL1
+
+Pair_Op_Code	LITERAL1
+Unpair_Op_Code	LITERAL1
+
+BR_9600		LITERAL1
+BR_19200	LITERAL1
+BR_38400	LITERAL1
+
+Peer		LITERAL1
+Node_of_Star	LITERAL1
+Concentrator_of_Star	LITERAL1
+
+ChannelG_1	LITERAL1
+ChannelG_2	LITERAL1
+ChannelG_3	LITERAL1
+ChannelG_4	LITERAL1
+ChannelG_5	LITERAL1
+ChannelG_6	LITERAL1
+ChannelG_7	LITERAL1
+ChannelG_8 	LITERAL1
+ChannelG_9	LITERAL1
+ChannelG_10	LITERAL1
+ChannelG_11	LITERAL1
+ChannelG_12	LITERAL1
+ChannelG_13	LITERAL1
+ChannelG_14	LITERAL1
+ChannelG_15	LITERAL1
+ChannelG_16	LITERAL1
+
+DeepSleep_Mode	LITERAL1
+LightnSleep_Mode	LITERAL1
+Pairing_Mode	LITERAL1
+Rx_Mode		LITERAL1
+
+N3dBm	LITERAL1
+P0dBm	LITERAL1
+P5dBm	LITERAL1
+P7dBm	LITERAL1
+
+DR125Kbps	LITERAL1
+DR250Kbps	LITERAL1
+DR500Kbps	LITERAL1
+

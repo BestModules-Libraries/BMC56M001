@@ -25,10 +25,12 @@ Documentation
 Version History  
 -------------------
 
-* **V1.0.1** - Initial public release.
-* **V1.0.2** - Improve wireless communication speed,
-             - Add function: bool isPaired(),
-             - Change the usage of the "uint16_t getShortAddress()" function: Can obtain the last paired short address, after re powering on;
+* **V1.0.1**  
+&emsp;&emsp;- Initial public release.
+* **V1.0.2**  
+&emsp;&emsp;- Improve wireless communication speed;  
+&emsp;&emsp;- Add function: bool isPaired();  
+&emsp;&emsp;- Change the usage of the "uint16_t getShortAddress()" function: Can obtain the last paired short address, after re powering on;
   
 License Information
 -------------------

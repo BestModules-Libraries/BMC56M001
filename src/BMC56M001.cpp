@@ -3,7 +3,7 @@
 File:           BMC56M001.cpp
 Author:         BESTMODULES
 Description:    UART communication with the BMC56M001   
-Version:        V1.0.2   --2023-09-06
+Version:        V1.0.3   --2025-05-15
 ***********************************************************/
 #include  "BMC56M001.h"
 
@@ -136,7 +136,10 @@ uint8_t BMC56M001::writePairPackage()
    writeBytes(sendBuf,8);
    if(readBytes(buff,&leng) == CHECK_OK)
    {
-    return buff[3];
+    if(readBytes(buff,&leng) == CHECK_OK)
+    {
+      return buff[3];
+    } 
    }
    else 
    {
@@ -242,7 +245,10 @@ uint8_t BMC56M001::writeRFData(uint32_t shortAddr,uint8_t len,uint8_t data[])
    writeBytes(sendBuf,(len+6));
    if(readBytes(buff,&leng) == CHECK_OK)
    {
-     return buff[3];
+     if(readBytes(buff,&leng) == CHECK_OK)
+    {
+      return buff[3];
+    } 
    }
    else 
    {

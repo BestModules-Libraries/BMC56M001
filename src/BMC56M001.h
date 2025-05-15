@@ -1,8 +1,8 @@
 /***********************************************************
 File:               BMC56M001.h
-Author:             BESTMODULES
+Author:             BEST MODULES CORP.
 Description:        Define classes and required variables
-Version:            V1.0.2   --2023-09-06
+Version:            V1.0.3   --2025-05-17
 ***********************************************************/
 #ifndef _BMC56M001_H_
 #define _BMC56M001_H_

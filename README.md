@@ -39,9 +39,9 @@ Version History
 * **V1.0.2**  
 &emsp;&emsp;- Improve wireless communication speed;  
 &emsp;&emsp;- Add function: bool isPaired();  
-&emsp;&emsp;- Change the usage of the "uint16_t getShortAddress()" function: Can obtain the last paired short address, after re powering on;
+&emsp;&emsp;- Change the usage of the "uint16_t getShortAddress()" function: Can obtain the last paired short address, after re powering on;  
 * **V1.0.3**  
-&emsp;&emsp;- Add applicable models: BMC56M001A; 
+&emsp;&emsp;- Add applicable models: BMC56M001A;  
 &emsp;&emsp;- Fix the "writeRFData、writePairPackage" function in the .cpp document to ensure its proper use;  
 License Information
 -------------------
